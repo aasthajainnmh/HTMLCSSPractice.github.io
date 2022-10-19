@@ -27,6 +27,8 @@
 	color: white;
 	border: 1px solid grey;
 	background: rgb(48, 126, 182);
+display:flex;
+justify-content:space-between;
 }
 .telegram #search{
 	margin-left: 300px;

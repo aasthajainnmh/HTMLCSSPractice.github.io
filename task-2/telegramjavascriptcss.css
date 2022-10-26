@@ -1,0 +1,601 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.box {
+	width: 100%;
+	height: 40px;
+	background: rgb(12, 112, 149);
+}
+
+.leftDash {
+	position: relative;
+	display: inline-block;
+	float: left;
+	left: 0px;
+	width: 40%;
+	height: 98vh;
+	background: white;
+	border-right: 3px solid grey;
+}
+
+.telegram {
+	height: 60px;
+	width: 100%;
+	justify-content: space-between;
+	display: flex;
+	font-size: 30px;
+	color: white;
+	border: 1px solid grey;
+	background: rgb(48, 126, 182);
+}
+
+.telegram #search {
+	margin-left: 300px;
+}
+
+.chats {
+	width: 100%;
+	height: 40px;
+	float: left;
+}
+
+.chatButton {
+	float: left;
+	width: 100%;
+	height: 80px;
+	background: #FFF;
+	color: black;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.chatInfo {
+	float: left;
+}
+
+.chatInfo p {
+	float: left;
+}
+
+.chatInfo .image {
+	position: absolute;
+	width: 55px;
+	height: 55px;
+	background: #DDD url(boy.jpg) no-repeat center;
+	background-size: cover;
+	border-radius: 100%;
+	margin: 13px 13px;
+}
+
+.chatInfo .my-image {
+	background-image: url(girl.jpg);
+}
+
+.chatInfo .name {
+	float: left;
+	font-weight: bolder;
+	margin-left: 80px;
+	margin-top: 18px;
+}
+
+.chatInfo .message {
+	float: left;
+	clear: left;
+	margin-left: 80px;
+	margin-top: 7px;
+}
+
+.status {
+	width: 80px;
+	height: 100%;
+	position: relative;
+	float: right;
+}
+
+.status .count {
+	color: white;
+	background: rgb(126, 198, 19);
+	border-radius: 20px;
+	width: 15px;
+	height: auto;
+	font-size: larger;
+	position: absolute;
+	top: 45px;
+	right: 12px;
+
+}
+
+.status .date {
+	position: absolute;
+	right: 12px;
+	top: 12px;
+	font-size: 16px;
+}
+
+.topBar {
+	height: 60px;
+	width: 1520px;
+	color: white;
+	background: rgb(48, 126, 182);
+	cursor: pointer;
+}
+
+.left {
+	float: left;
+}
+
+.left .image {
+	position: absolute;
+	width: 55px;
+	height: 55px;
+	background: #DDD url(boy.jpg) no-repeat center;
+	background-size: cover;
+	border-radius: 100%;
+	margin: 4px 13px;
+}
+
+div test {
+	width: 30px;
+	height: 10px;
+	background-image: radial-gradient(circle, black 10px, transparent 11px);
+	background-size: 40% 10%;
+	margin-right: 0px;
+}
+
+.test:after {
+	content: '\2807';
+	font-size: 30px;
+}
+
+.right {
+	float: right;
+	margin-right: 0px;
+	margin-top: 5px;
+}
+.conversation {
+	float: left;
+	position: relative;
+	width: 100%;
+	height: calc(100vh - 140px);
+	background: #333;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.bg {
+	position: absolute;
+	display: inline-block;
+	float: right;
+	right: 0px;
+	width: 60%;
+	height: 100%;
+	background: url(ocean.jpg) no-repeat;
+	background-size: 1016px 100vh;
+}
+
+.image {
+	position: absolute;
+	width: 55px;
+	height: 55px;
+	background: #DDD url(boy.jpg) no-repeat center;
+	background-size: cover;
+	border-radius: 100%;
+	margin: 13px 13px;
+}
+
+.whiteBox {
+	height: 60px;
+	width: 400px;
+	background: white;
+	margin-left: 80px;
+	margin-top: 120px;
+}
+
+.whiteBox .timestamp {
+	float: right;
+	color: grey;
+	margin-right: 3px;
+}
+
+.chatInfo .images {
+	position: absolute;
+	width: 55px;
+	height: 55px;
+	background: #DDD url(balloon.jpg) no-repeat center;
+	background-size: cover;
+	border-radius: 100%;
+	margin: 13px 13px;
+}
+
+.chatInfo .imag {
+	position: absolute;
+	width: 55px;
+	height: 55px;
+	background: #DDD url(lady.jpg) no-repeat center;
+	background-size: cover;
+	border-radius: 100%;
+	margin: 13px 13px;
+}
+
+.chatInfo .ima {
+	position: absolute;
+	width: 55px;
+	height: 55px;
+	background: #DDD url(boats.jpg) no-repeat center;
+	background-size: cover;
+	border-radius: 100%;
+	margin: 13px 13px;
+}
+
+.chatInfo .im {
+	position: absolute;
+	width: 55px;
+	height: 55px;
+	background: #DDD url(girl1.jpg) no-repeat center;
+	background-size: cover;
+	border-radius: 100%;
+	margin: 13px 13px;
+}
+
+.chatInfo .i {
+	position: absolute;
+	width: 55px;
+	height: 55px;
+	background: #DDD url(girl2.jpg) no-repeat center;
+	background-size: cover;
+	border-radius: 100%;
+	margin: 13px 13px;
+}
+
+.typeHere{
+	height: 50px;
+	width: 100%;
+	margin-top: 50%;
+	background: white;
+}
+
+.typeHere .symbols {
+	float: right;
+	height: 20px;
+	width: 70px;
+	padding: 13px;
+}
+
+.popup-overlay {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	display: none;
+}
+
+.popup {
+	position: fixed;
+	top: -150%;
+	left: 15%;
+	transform: translate(-50%, -50%);
+	width: 200px;
+	background: aqua;
+	padding: 20px;
+}
+
+.popup .popup-close-btn {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	font-size: 20px;
+	background: black;
+	padding: 5px;
+	border-radius: 25px;
+	font-size: 20px;
+	font-weight: 600;
+	color: white;
+}
+
+body.popup-active .popup {
+	top: 20%
+}
+
+body.popup-active .popup-overlay {
+	display: block;
+}
+
+/* Robert profile */
+.popup-overlay1 {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	display: none;
+}
+
+.popup1 {
+	position: fixed;
+	top: -150%;
+	left: 15%;
+	transform: translate(-50%, -50%);
+	width: 200px;
+	background: aqua;
+	padding: 20px;
+}
+.popup1 .popup-close-btn1 {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	font-size: 20px;
+	background: black;
+	padding: 5px;
+	border-radius: 25px;
+	font-size: 20px;
+	font-weight: 600;
+	color: white;
+}
+
+body.popup-active1 .popup1 {
+	top: 30%
+}
+
+body.popup-active1 .popup-overlay1 {
+	display: block;
+}
+
+/* Campus party */
+.popup-overlay2 {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	display: none;
+}
+
+.popup2 {
+	position: fixed;
+	top: -150%;
+	left: 15%;
+	transform: translate(-50%, -50%);
+	width: 200px;
+	background: aqua;
+	padding: 20px;
+}
+.popup2 .popup-close-btn2 {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	font-size: 20px;
+	background: black;
+	padding: 5px;
+	border-radius: 25px;
+	font-size: 20px;
+	font-weight: 600;
+	color: white;
+}
+
+body.popup-active2 .popup2 {
+	top: 40%;
+}
+
+body.popup-active2 .popup-overlay2 {
+	display: block;
+}
+/* Karen Profile */
+.popup-overlay3 {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	display: none;
+}
+
+.popup3 {
+	position: fixed;
+	top: -150%;
+	left: 15%;
+	transform: translate(-50%, -50%);
+	width: 200px;
+	background: aqua;
+	padding: 20px;
+}
+.popup3 .popup-close-btn3 {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	font-size: 20px;
+	background: black;
+	padding: 5px;
+	border-radius: 25px;
+	font-size: 20px;
+	font-weight: 600;
+	color: white;
+}
+
+body.popup-active3 .popup3 {
+	top: 50%;
+}
+
+body.popup-active3 .popup-overlay3 {
+	display: block;
+}
+/* Wave Hunters */
+.popup-overlay4 {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	display: none;
+}
+
+.popup4 {
+	position: fixed;
+	top: -150%;
+	left: 15%;
+	transform: translate(-50%, -50%);
+	width: 200px;
+	background: aqua;
+	padding: 20px;
+}
+.popup4 .popup-close-btn4{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	font-size: 20px;
+	background: black;
+	padding: 5px;
+	border-radius: 25px;
+	font-size: 20px;
+	font-weight: 600;
+	color: white;
+}
+
+body.popup-active4 .popup4 {
+	top: 60%;
+}
+
+body.popup-active4 .popup-overlay4 {
+	display: block;
+}
+/* Little sister profile */
+.popup-overlay5 {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	display: none;
+}
+
+.popup5 {
+	position: fixed;
+	top: -150%;
+	left: 15%;
+	transform: translate(-50%, -50%);
+	width: 200px;
+	background: aqua;
+	padding: 20px;
+}
+.popup5 .popup-close-btn5{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	font-size: 20px;
+	background: black;
+	padding: 5px;
+	border-radius: 25px;
+	font-size: 20px;
+	font-weight: 600;
+	color: white;
+}
+
+body.popup-active5 .popup5 {
+	top: 70%;
+}
+
+body.popup-active5 .popup-overlay5 {
+	display: block;
+}
+/* Monika Parker profile */
+.popup-overlay6 {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	display: none;
+}
+
+.popup6{
+	position: fixed;
+	top: -150%;
+	left: 15%;
+	transform: translate(-50%, -50%);
+	width: 200px;
+	background: aqua;
+	padding: 20px;
+}
+.popup6 .popup-close-btn6{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	font-size: 20px;
+	background: black;
+	padding: 5px;
+	border-radius: 25px;
+	font-size: 20px;
+	font-weight: 600;
+	color: white;
+}
+
+body.popup-active6 .popup6{
+	top: 78%;
+}
+
+body.popup-active6 .popup-overlay6 {
+	display: block;
+}
+/* Cat videos profile */
+.popup-overlay7 {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	display: none;
+}
+
+.popup7 {
+	position: fixed;
+	top: -150%;
+	left: 15%;
+	transform: translate(-50%, -50%);
+	width: 200px;
+	background: aqua;
+	padding: 20px;
+}
+.popup7 .popup-close-btn7{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	font-size: 20px;
+	background: black;
+	padding: 5px;
+	border-radius: 25px;
+	font-size: 20px;
+	font-weight: 600;
+	color: white;
+}
+
+body.popup-active7 .popup7 {
+	top: 90%;
+}
+
+body.popup-active7 .popup-overlay7 {
+	display: block;
+}
+#demo{
+	height: 2%;
+	width: 52.5%;
+	background: white;
+	border: solid black 1px;
+
+}
+#trial{
+	height: 2%;
+	width: 52.5%;
+	background: white;
+	border: solid black 1px;
+
+}
